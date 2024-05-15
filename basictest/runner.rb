@@ -5,7 +5,7 @@ ruby = ENV["RUBY"]
 unless ruby
   load './rbconfig.rb'
   ruby = "./#{RbConfig::CONFIG['ruby_install_name']}#{RbConfig::CONFIG['EXEEXT']}"
-end
+end 
 unless File.exist? ruby
   print "#{ruby} is not found.\n"
   print "Try `make' first, then `make test', please.\n"
