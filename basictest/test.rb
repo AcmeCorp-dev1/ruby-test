@@ -5,7 +5,7 @@ $testnum=0
 $ntest=0
 $failed = 0
 class Progress
-  def initialize
+  def initialize 
     @color = nil
     @tty = nil
     @quiet = nil
