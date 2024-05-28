@@ -7,7 +7,7 @@ $failed = 0
 class Progress
   def initialize 
     @color = nil
-    @tty = nil
+    @tty = nil 
     @quiet = nil
     @verbose = nil
     ARGV.each do |arg|
